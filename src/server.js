@@ -6,7 +6,7 @@ const app = express();
 
 const server = app.listen(config.PORT);
 
-(() => {
+;(() => {
   try {
     console.info(`Starting server...`, {
       meta: {
