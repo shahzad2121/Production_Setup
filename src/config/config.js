@@ -12,4 +12,5 @@ module.exports = {
   PORT: process.env.PORT,
   DB_URL: process.env.DB_URL,
   URL: process.env.URL,
+ENV:process.env.ENV
 };
